@@ -27,7 +27,7 @@ for (var i = 0; i < friends.length; i++) {
 //for loop to go through each one of the answers and compare them
     for (var i = 0; i < scores.length; i++) {
 
-        var questionDifference = Math.ad(yourInfo.score[i] - friends.scores[i]);
+        var questionDifference = Math.ad(yourInfo.score[i] - friends[i].scores[i]);
 
         totalDifference = totalDifference + questionDifference
 
