@@ -138,10 +138,8 @@
                     <option value="5">5</option>
                 </select>
             </div>
-            <button class="btn btn-info" id="submit">Submit</button>
+            <button type="submit" class="btn btn-info" id="submit">Submit</button>
     </div>
-
-    <div class="showArea"></div>
     </form>
 </body>
 
@@ -166,15 +164,16 @@
                 $("#q8").val(),
                 $("#q9").val(),
                 $("#q10").val(),
-
             ]
-
         };
 
         console.log(yourInfo)
 
-
-
+        $.post("/api/friends", yourInfo, function(data) {
+          
+    
+        });
+        
 
     });
 

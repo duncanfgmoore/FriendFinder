@@ -14,6 +14,7 @@ var friends = [
         1,
         3
     ]
+
 },
 {
     "name": "Stacey",
@@ -35,15 +36,15 @@ var friends = [
     "name": "Bill",
     "photo": "photo",
     "scores": [
-        3,
         5,
         5,
         5,
-        2,
-        2,
-        3,
-        4,
-        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
         5
     ]
 }
