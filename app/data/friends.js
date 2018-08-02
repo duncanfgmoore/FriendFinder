@@ -1,7 +1,7 @@
 var friends = [
 {
     "name": "Mike",
-    "photo": "photo",
+    "photo": "../public/images/friend1.jpeg",
     "scores": [
         3,
         4,
@@ -18,7 +18,7 @@ var friends = [
 },
 {
     "name": "Stacey",
-    "photo": "photo",
+    "photo": "../public/images/friend2.jpeg",
     "scores": [
         1,
         3,
@@ -34,7 +34,7 @@ var friends = [
 },
 {
     "name": "Bill",
-    "photo": "photo",
+    "photo": "../public/images/friend.jpeg",
     "scores": [
         5,
         5,

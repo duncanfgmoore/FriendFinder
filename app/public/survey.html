@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,140 +7,181 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FriendFinder Survey</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script> -->
 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
+   
 </head>
 
-<body>
-    <div class="container jumbotron">
+<body style="background-color: lightgoldenrodyellow">
+    <div class="container jumbotron" style="text-align: center">
         <h1>Take the survey to find a new friend</h1>
     </div>
 
-    <div class="container" style="width: 100%">
-        <form>
+    <div class="container" style="background-color: lightgrey">
+        <form style="margin-top: 20px">
             <div>
-                <label>Your name</label>
-                <input id="name">
+                <label for="name">Your Name</label>
+                <input id="name" style="width: 300px">
             </div>
 
             <div>
-                <label>Your photo</label>
-                <input id="photo">
+                <label for="name">Your Photo</label>
+                <input id="photo" style="width: 300px">
             </div>
 
+            <br>
+
             <div>
-                <label>Question 1</label>
+                <label for="q1">Question 1</label>
+                <div>How much do you hate puppies?</div>
                 <select class="selectpicker chosen-default" id="q1">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
-
+            <br>
             <div>
-                <label>Question 2</label>
+                <label for="q2">Question 2</label>
+                <div>How funny do you think you are?</div>
                 <select class="selectpicker" id="q2">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
+            <br>
             <div>
                 <label>Question 3</label>
+                <div>Do you like the movie Shrek?</div>
                 <select class="selectpicker" id="q3">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
-
+            <br>
             <div>
                 <label>Question 4</label>
+                <div>What about Shrek 2?</div>
                 <select class="selectpicker" id="q4">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
+            <br>
             <div>
                 <label>Question 5</label>
+                <div>Are you a fan of Alec Baldwin?</div>
                 <select class="selectpicker" id="q5">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
-
+            <br>
             <div>
                 <label>Question 6</label>
+                <div>Would you eat a marble for $5?</div>
                 <select class="selectpicker" id="q6">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
+            <br>
             <div>
                 <label>Question 7</label>
+                <div>Are you comfortable wearing shoes without socks?</div>
                 <select class="selectpicker" id="q7">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
-
+            <br>
             <div>
                 <label>Question 8</label>
+                <div>Winter is the best season?</div>
                 <select class="selectpicker" id="q8">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
+            <br>
             <div>
                 <label>Question 9</label>
+                <div>Are you comfortable lending people money?</div>
                 <select class="selectpicker" id="q9">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
-
+            <br>
             <div>
                 <label>Question 10</label>
+                <div>Do you enjoy washing dishes?</div>
                 <select class="selectpicker" id="q10">
-                    <option value="1">1</option>
+                    <option value="1">1 (Strongly Against)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5">5 (Stronly Agree)</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-info" id="submit">Submit</button>
+            <br>
+            <button type="submit" class="btn btn-info" id="submit" data-toggle="modal" data-target="#modal">Submit</button>
     </div>
     </form>
+
+
+
+    <div class="modal fade" id="modal" style="width: 500px; height: 500px; margin: 25 auto 0 auto">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" style="float:left">Your New Best Friend is!!!</h2>
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="float: right">Close</button>
+            </div>
+            <div >
+                <h3 id="match-name"></h3>
+
+                <br>
+                <img id="friendPhoto" class="img_modal" src="" width="300px" height="300px" alt="">
+            </div>
+        </div>
+        <div class="modal-footer">
+            
+        </div>
+    </div>
+
+
 </body>
 
 </html>
@@ -169,12 +210,53 @@
 
         console.log(yourInfo)
 
-        $.post("/api/friends", yourInfo, function(data) {
-          
-    
-        });
-        
+        $.get("/api/friends", function (friends) {
 
+            var totalDifference = 0;
+
+           // var scoresArray = [];
+
+            var userInfo = yourInfo;
+
+            var winningName = "Nobody";
+            var winningScore = 300;
+            var winningPhoto;
+
+            for (var i = 0; i < friends.length; i++) {
+
+               
+                totalDifference = 0
+
+                for (var j = 0; j < 10; j++) {
+
+                    var questionDifference = Math.abs(parseInt(userInfo.scores[j]) - parseInt(friends[i].scores[j]));
+
+                    totalDifference += questionDifference
+                }
+
+                
+                if (totalDifference < winningScore) {
+                    winningScore = totalDifference;
+                    winningName = friends[i].name;
+                    winningPhoto = friends[i].photo;
+                }
+
+            }
+            
+            console.log(winningName)
+            console.log(winningScore);
+            console.log(winningPhoto);
+
+
+
+            console.log("Your new best friend is " + winningName)
+
+
+            $("#match-name").text(winningName);
+            $("#friendPhoto").attr(winningPhoto); 
+
+        });
+        $("#modal").modal("show");
     });
 
 
