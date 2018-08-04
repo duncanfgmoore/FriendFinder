@@ -1,7 +1,7 @@
 var friends = [
 {
     "name": "Mike",
-    "photo": "../public/images/friend1.jpeg",
+    "photo": "http://dummyimage.com/388x507.png/cc0000/ffffff",
     "scores": [
         3,
         4,
@@ -18,7 +18,7 @@ var friends = [
 },
 {
     "name": "Stacey",
-    "photo": "../public/images/friend2.jpeg",
+    "photo": "http://dummyimage.com/400x550.png/ff4444/ffffff",
     "scores": [
         1,
         3,
@@ -34,7 +34,7 @@ var friends = [
 },
 {
     "name": "Bill",
-    "photo": "../public/images/friend.jpeg",
+    "photo": "http://dummyimage.com/333x576.png/ff4444/ffffff",
     "scores": [
         5,
         5,
