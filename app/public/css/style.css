@@ -1,0 +1,81 @@
+body{
+    background-image: url("../images/backgroundImage.jpeg");
+    
+}
+.homeHead {
+    text-align: center;
+    color: black;
+    font-family: 'Arvo', sans-serif;
+    font-size: 58px;
+    
+}
+.topJumbo {
+   background-color: rgb(228, 70, 42);
+   text-align: center;
+   font-family: 'Arvo', sans-serif;
+   border-radius: 5px;
+}
+
+.bottomJumbo {
+    width: 700px;
+    margin: auto;
+    height: 350px;
+    background-color: white;
+    color: black;
+    font-family: 'Arvo', sans-serif;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  
+    box-shadow:         3px 3px 5px 6px #ccc; 
+
+}
+.container {
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 25px;
+}
+.newFriend{
+    font-size: 26px;
+   
+}
+.centerBtn {
+    text-align: center;
+}
+
+.surveyContainer {
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    font-family: 'Arvo', sans-serif;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  
+    box-shadow:         3px 3px 5px 6px #ccc; 
+}
+
+.photoDiv {
+    float: left;
+   
+}
+
+.nameDiv {
+    float: left;
+    margin-right: 15px;
+}
+
+#friendPhoto {
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+#results{
+    text-align: center;
+}
+
+#match-name{
+     font-size: 52px;
+}
+.modal {
+    font-family: 'Arvo', sans-serif;
+}

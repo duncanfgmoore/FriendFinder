@@ -1,7 +1,7 @@
 var friends = [
 {
     "name": "Mike",
-    "photo": "http://dummyimage.com/388x507.png/cc0000/ffffff",
+    "photo": "https://www.findaqualityman.com/wp-content/uploads/2013/08/bigstock-Close-Up-Portrait-Of-Man-Stand-27379967.jpg",
     "scores": [
         3,
         4,
@@ -18,7 +18,7 @@ var friends = [
 },
 {
     "name": "Stacey",
-    "photo": "http://dummyimage.com/400x550.png/ff4444/ffffff",
+    "photo": "https://srkheadshotday.com/wp-content/uploads/Lisa_Masten_Headshot_17B2797_Crop32-1024x683.jpg",
     "scores": [
         1,
         3,
@@ -34,7 +34,7 @@ var friends = [
 },
 {
     "name": "Bill",
-    "photo": "http://dummyimage.com/333x576.png/ff4444/ffffff",
+    "photo": "http://media.beliefnet.com/~/media/photos-with-attribution/inspiration/002/peoplemiddleagedmansmilingjpg.jpg",
     "scores": [
         5,
         5,
@@ -45,6 +45,38 @@ var friends = [
         5,
         5,
         5,
+        5
+    ]
+},
+{
+    "name": "Mary",
+    "photo": "http://michaelhelms.com/wp-content/uploads/2012/04/Akia4078.jpg",
+    "scores": [
+        3,
+        5,
+        3,
+        4,
+        1,
+        1,
+        2,
+        4,
+        5,
+        5
+    ]
+},
+{
+    "name": "Robert",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mikhail_Men.jpg/440px-Mikhail_Men.jpg",
+    "scores": [
+        2,
+        4,
+        5,
+        1,
+        3,
+        4,
+        4,
+        2,
+        4,
         5
     ]
 }

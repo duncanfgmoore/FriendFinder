@@ -15,33 +15,36 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-   
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="background-color: lightgoldenrodyellow">
-    <div class="container jumbotron" style="text-align: center">
-        <h1>Take the survey to find a new friend</h1>
+<body>
+    <div class="container jumbotron topJumbo" >
+        <h1>Take the Survey to Find a New Friend</h1>
     </div>
 
-    <div class="container" style="background-color: lightgrey">
+    <div class="container surveyContainer">
         <form style="margin-top: 20px">
-            <div>
+            <div class="nameDiv">
                 <label for="name">Your Name</label>
-                <input id="name" style="width: 300px">
+                <input id="name">
             </div>
 
-            <div>
-                <label for="name">Your Photo</label>
-                <input id="photo" style="width: 300px">
+            <div class="photoDiv">
+                <label for="photo">Your Photo Link</label>
+                <input id="photo">
             </div>
 
+            <br>
+            <br>
             <br>
 
             <div>
                 <label for="q1">Question 1</label>
                 <div>How much do you hate puppies?</div>
                 <select class="selectpicker chosen-default" id="q1">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -53,7 +56,7 @@
                 <label for="q2">Question 2</label>
                 <div>How funny do you think you are?</div>
                 <select class="selectpicker" id="q2">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -65,7 +68,7 @@
                 <label>Question 3</label>
                 <div>Do you like the movie Shrek?</div>
                 <select class="selectpicker" id="q3">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -77,7 +80,7 @@
                 <label>Question 4</label>
                 <div>What about Shrek 2?</div>
                 <select class="selectpicker" id="q4">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -89,7 +92,7 @@
                 <label>Question 5</label>
                 <div>Are you a fan of Alec Baldwin?</div>
                 <select class="selectpicker" id="q5">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -101,7 +104,7 @@
                 <label>Question 6</label>
                 <div>Would you eat a marble for $5?</div>
                 <select class="selectpicker" id="q6">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -113,7 +116,7 @@
                 <label>Question 7</label>
                 <div>Are you comfortable wearing shoes without socks?</div>
                 <select class="selectpicker" id="q7">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -125,7 +128,7 @@
                 <label>Question 8</label>
                 <div>Winter is the best season?</div>
                 <select class="selectpicker" id="q8">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -137,7 +140,7 @@
                 <label>Question 9</label>
                 <div>Are you comfortable lending people money?</div>
                 <select class="selectpicker" id="q9">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -149,7 +152,7 @@
                 <label>Question 10</label>
                 <div>Do you enjoy washing dishes?</div>
                 <select class="selectpicker" id="q10">
-                    <option value="1">1 (Strongly Against)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -169,7 +172,7 @@
                 <h2 class="modal-title" style="float:left">Your New Best Friend is!!!</h2>
                 <button type="button" class="btn btn-default" data-dismiss="modal" style="float: right">Close</button>
             </div>
-            <div >
+            <div id="results">
                 <h3 id="match-name"></h3>
 
                 <br>
