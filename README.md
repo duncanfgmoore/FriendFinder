@@ -2,7 +2,7 @@
 
 ## Description
 
-Friend Finder will help you find that new best friend. The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an existing user record closest to the current user's responses is found and returned. The closest set of user responses is defined as the set with the lowest absolute difference for all ten questions combined.
+The Friend Finder application will help you find your new best friend. By answering questions on a scale from 1 (Strongly Disagree) to 5 (Strongly Agree) the best possible friend match will be selected. The new friend is determined be comparing absolute differences of the scores of each question with the friends already in the database. Those scores are added up and the totals with the lowest absolute difference are paired as best friends. The user is then notified who there new best friend is going to be. 
 
 ## Installation
 
