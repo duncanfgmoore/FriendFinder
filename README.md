@@ -18,6 +18,13 @@ The Friend Finder application will help you find your new best friend. By answer
 ![screenshot](app/public/images/friendScreenShot.jpeg)
 
 
+## Technoligies Used
+
+- Node.js
+- Express.js
+- NPMs
+- Bootstrap
+- JQuery
 
 ## Installation
 
