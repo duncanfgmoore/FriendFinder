@@ -7,15 +7,15 @@ The Friend Finder application will help you find your new best friend. By answer
 
 ## Home Page
 
-![screenshot](images/homeScreenShot.jpeg)
+![screenshot](app/public/images/homeScreenShot.jpeg)
 
 ## Survey Screen
 
-![screenshot](images/surveyScreenShot.jpeg)
+![screenshot](app/public/images/surveyScreenShot.jpeg)
 
 ## New Best Friend Notification
 
-![screenshot](images/friendScreenShot.jpeg)
+![screenshot](app/public/images/friendScreenShot.jpeg)
 
 
 
